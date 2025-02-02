@@ -1,0 +1,255 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+header
+{
+height: 99px;
+background-color: rgb(219, 207, 207);
+margin: 0px;
+padding: 0px;
+}
+#upp
+{
+background-color: #000505;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-eveny;
+}
+#navlog
+{
+    height: 50px;
+    width: 100px;
+}
+#log
+{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon-dark-logo-black-and-white.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 10px;
+
+}
+#address
+{
+    color: azure;
+    font-size: small;
+    padding: 3px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.border
+{
+  border: 2px solid transparent;  
+}
+.border:hover
+{
+    border:1.5px solid white;
+    transform: translate(-3px,3px);
+    box-shadow:1px 1px 1px 1px white
+}
+#icon
+{
+  color: rgb(234, 235, 224);
+  border: none;
+  background-color:rgb(35, 47, 62);
+}
+#icon2
+{
+    font-size: 20px;
+}
+#searchout
+{
+    display: flex;
+    width: 620px;
+    height: 40px;
+}
+#selectbar
+{
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 3px;
+    color: azure;
+    background-color: transparent;
+}
+#search
+{
+    height: 30px;
+    width: 600px;
+    border-radius: 3px;
+    text-align: center;
+}
+#searchbut
+{
+    height: 34px;
+    width: 5px;
+    border-radius: 3px;
+    color: azure;
+    background-color: transparent;
+}
+#flag
+{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    color: azure;
+    font-size: x-large;
+}
+#signin
+{
+    color: azure;
+    font-size: 15px;
+    height: 35px;
+    width: 120px;
+    font-weight: 200;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart
+{
+    color: azure;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+}
+#cart i
+{
+    font-size: x-large;
+    margin-right: 4px;
+}
+#low
+{
+background-color:rgb(35, 47, 62);
+height: 39px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#box1
+{
+    display: flex;
+    color: azure;
+    align-items: center;
+    width: 500px;
+    font-size:12px;
+    justify-content: space-evenly;
+}
+#box2
+{
+    color: azure;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+main
+{
+height: 1600px;
+background-color: bisque;
+}
+#hero
+{
+    height: 650px;
+ background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/OHL/24/BAU/feb/PC_hero_1_2x_1._CB582889946_.jpg");
+ background-size: cover;
+ display: flex;
+ align-items: end;
+ justify-content: space-evenly;
+}
+#right
+{
+font-size: 60px;
+color: whitesmoke;
+position: absolute;
+right: 20px;
+top: 240px;
+
+}
+#left
+{
+    font-size: 60px;
+color: whitesmoke;
+position: absolute;
+left: 20px;
+top: 240px;
+}
+
+.boxx
+{
+    height: 300px;
+    width: 250px;
+    background-color: beige;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#in1
+{
+
+}
+#in2
+{
+
+}
+#in3
+{
+
+}
+#in4
+{
+
+}
+.boxi
+{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+}
+#pro1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://m.media-amazon.com/images/I/61mSk6EnUbL._AC_SY200_.jpg");
+}
+#pro2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://m.media-amazon.com/images/I/41jcYNdQFML._AC_SY200_.jpg");
+
+}
+#pro3
+{
+    background-repeat: no-repeat;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2025/GW/BTF/Wk01/desktop_-_low_res._SY304_CB538721254_.jpg");
+    background-size: cover;
+
+}
+#pro4
+{
+    background-repeat: no-repeat;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg");
+    background-size: cover;
+
+}
+
+footer
+{
+    height: 300px;
+    background-color:rgb(35, 47, 62) ;
+}
