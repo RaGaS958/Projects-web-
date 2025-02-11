@@ -1,0 +1,68 @@
+
+body
+{
+    background-color: rgb(61, 58, 58);
+}
+@keyframes mov
+{
+    0%
+    {
+        transform: translateX(100%);
+
+    }
+    100%
+    {
+        transform: translateX(-100%);
+        
+    }
+}
+p
+{
+display: inline-flex;
+margin: 1.2rem;
+
+border-radius: 2rem;
+letter-spacing: 0.3rem;
+/* animation-name: mov;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction:alternate; */
+margin-top: 0.4rem;
+background-color: rgb(128, 128, 128,0.6);
+color: azure;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: medium;
+padding:  0.3rem 1rem  0.3rem 1rem;
+}
+.inner
+{
+    display: flex;
+    animation-name: mov;
+animation-duration: 20s;
+animation-timing-function: steps(10000);
+animation-iteration-count: infinite;
+animation-direction:normal;
+    justify-content: center;
+}
+.inner1
+{
+    display: flex;
+    animation-name: mov;
+animation-duration: 20s;
+animation-timing-function:steps(1000);
+animation-iteration-count: infinite;
+animation-direction:reverse;
+    justify-content: center;
+}
+#outer
+{
+    width: 100%;
+    background-color: rgb(37, 25, 25);
+}
+#outer:active
+{
+    transform: scale(2);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
