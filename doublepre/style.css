@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 4rem;
+    background-color: #48CFCB;
+    background: linear-gradient(to right,rgb(182, 172, 172) ,rgb(87, 80, 80));
+}
+#container
+{
+    background-color: #9aa3a3;
+    height: fit-content;
+    padding: 5rem;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #383535;
+    border-radius: 3rem;
+}
+#container h1
+{
+    color: rgb(24, 31, 31);
+    text-align: center;
+    text-wrap: wrap;
+}
+#display
+{
+    height: 3rem;
+    margin-top: 1rem;
+    width: 90%;
+    overflow: auto;
+    text-align: end ;
+    padding-top:0.8rem ;
+    padding-right: 0.4rem;
+    font-size: 2rem;
+    text-wrap: wrap;
+    background-color: rgb(172, 194, 121);
+    border-radius: 0.5rem;
+    color: rgb(12, 9, 9);
+    box-shadow: inset 2px 3px 3px 1px rgb(58, 51, 51);
+}
+#buttons
+{
+display: flex;
+flex-wrap: wrap;
+width: 70%;
+height: fit-content;
+justify-content: center;
+align-content: center;
+padding: 0.4rem;
+margin: 0.6rem;
+}
+#buttons button
+{
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 1.4rem;
+    margin: 0.4rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: #9aa3a3;
+    color: azure;
+} 
+#enter
+{
+    width: 80%;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: #9aa3a3;
+    color: azure;
+}
+#output
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    background-color: rgb(172, 194, 121);
+    border-radius: 0.5rem;
+    color: rgb(12, 9, 9);
+    padding: 1rem;
+    display: none;
+    box-shadow: inset 2px 3px 3px 1px rgb(58, 51, 51);
+}
+#answer
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+#sign
+{
+   width: 1rem;
+   text-align: center;
+   padding: 0.5rem;
+   border: 1px solid;
+   font-size: larger;
+}
+#mid
+{
+    width: fit-content;
+    text-align: center;
+    padding: 0.5rem;
+    border: 1px solid;
+    font-size: larger;
+}
+#last
+{
+    width: fit-content;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: larger;
+    border: 1px solid;
+}
+@media(max-width:1010px)
+{
+    #buttons
+    {
+        display: flex;
+     flex-wrap: wrap;
+     width: 90%;
+     height: fit-content;
+    justify-content: center;
+    align-content: center;
+    padding: 0.3rem;
+    margin: 0.6rem;
+    }
+}

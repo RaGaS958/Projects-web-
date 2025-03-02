@@ -1,0 +1,106 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-image: url("freepik__upload__31113.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#outer
+{
+    height: 100vh;
+    display: flex;
+    width: fit-content;
+    background-color:transparent;
+    align-items: center;
+    margin-left: 13rem;
+
+}
+#login
+{
+    height: 80vh;
+    width: 70vh;
+   border-radius: 2rem;
+   background-color: rgb(248, 150, 23,0.7);
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border: 0.3rem solid rgb(233, 229, 229,0.4);
+    display: flex;
+    border-left: 0rem;
+    margin-left: 0rem;
+}
+#regi
+{
+    height: 80vh;
+    width: 70vh;
+   border-radius: 2rem;
+   background-color: rgb(248, 150, 23,0.7);
+    border-top-right-radius:0rem ;
+    border-bottom-right-radius: 0rem;
+    border-right: 0rem transparent;
+    border: 0.3rem solid rgb(233, 229, 229,0.4);
+    display: flex;
+}
+#slide
+{
+    height: 80vh;
+    width: 70vh;
+   border-radius: 2rem;
+   background-color: rgb(248, 150, 23);
+  position: absolute;
+  justify-self: start;
+    border: 0.3rem solid rgb(233, 229, 229,0.4);
+    display: flex;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-right: 0;
+    margin-right: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes sld
+{
+    0%
+    {
+        width: 70vh;
+        transform: translate(0vh);
+
+    }
+    50%
+    {
+        width: 140vh;
+        transform: translate(0vh);
+        border-top-right-radius: 2rem;
+        borderbottom-right--radius: 2rem;
+    }
+    100%
+    {
+        width: 70vh;
+        transform: translate(70vh);
+        border-top-left-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+        border-top-right-radius: 2rem;
+        borderbottom-right--radius: 2rem;
+       
+    }
+}
+ #outer:active #slide
+{
+   
+   
+    animation-name: sld;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* transform: translate(70vh);
+    transition-timing-function: ease-in-out;
+    transition-duration: 4s; */
+}
+h1
+{
+    font-style: 3rem;
+    color: azure;
+    text-align: center;
+    margin-left: 2rem;
+}
