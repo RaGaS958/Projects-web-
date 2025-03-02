@@ -133,7 +133,7 @@ margin: 0.6rem;
     {
         display: flex;
      flex-wrap: wrap;
-     width: 90%;
+     width: 100%;
      height: fit-content;
     justify-content: center;
     align-content: center;
