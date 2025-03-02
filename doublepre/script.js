@@ -12,7 +12,7 @@ input.forEach((inpu) =>
 inpu.addEventListener("click",()=>
     {
       let inputval=inpu.innerText;
-      if(!(inputval==="->"))
+      if(!(inputval==="DEL"))
       {
        dispp=dispp+inputval;
       disp.innerText=dispp;
